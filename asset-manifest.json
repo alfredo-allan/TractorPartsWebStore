@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TractorPartsWebStore/static/css/main.38c665df.css",
+    "main.js": "/TractorPartsWebStore/static/js/main.30d166eb.js",
+    "static/media/bannerdesktop.png": "/TractorPartsWebStore/static/media/bannerdesktop.8d111cdf016b733e045a.png",
+    "static/media/bannermobile.png": "/TractorPartsWebStore/static/media/bannermobile.6b1f1f8d2f34d73afba2.png",
+    "static/media/icoTratorMax.png": "/TractorPartsWebStore/static/media/icoTratorMax.9ec8dedc66f4bc9c8dae.png",
+    "index.html": "/TractorPartsWebStore/index.html",
+    "main.38c665df.css.map": "/TractorPartsWebStore/static/css/main.38c665df.css.map",
+    "main.30d166eb.js.map": "/TractorPartsWebStore/static/js/main.30d166eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38c665df.css",
+    "static/js/main.30d166eb.js"
+  ]
+}
