@@ -1,0 +1,11 @@
+@media (min-width: 1024px) {
+  .banner-image {
+    margin: 0 0; /* Remove qualquer espaçamento externo */
+  }
+}
+
+.banner-image {
+  width: 100%; /* Garante que a imagem ocupe toda a largura */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Remove qualquer espaço em volta da imagem */
+}

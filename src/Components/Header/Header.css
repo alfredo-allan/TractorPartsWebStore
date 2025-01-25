@@ -1,0 +1,162 @@
+/* Logo */
+/* Estilo padrão para logo */
+#logo {
+  width: 260px;
+  height: auto;
+  margin: -14px -150px; /* Ajuste de margem para telas grandes */
+}
+
+/* Media query para telas de desktop */
+@media (min-width: 1024px) {
+  #logo {
+    width: 260px; /* Define a largura fixa do logo */
+    height: auto;
+    margin: -14px -150px; /* Ajuste da margem para desktops */
+    margin-right: -450%;
+  }
+
+  .d-flex.justify-content-center.w-100.mt-3,
+  img {
+    margin: 0 30px; /* Garantir que a margem de ícones e imagem seja consistente */
+  }
+  form {
+    max-width: 400px;
+    width: 100%;
+    text-align: center; /* Centraliza o conteúdo do form */
+    margin: 0 auto !important; /* Garante alinhamento central */
+  }
+  .d-flex.justify-content-center.w-100 {
+    margin-right: -9%;
+  }
+  input.form-control.me-2 {
+    margin: -19px 234px 0px;
+    margin-right: 234px;
+    position: absolute;
+    width: 90%;
+  }
+  #lupa {
+    position: absolute;
+    width: 30px;
+    margin: -15px 550px;
+  }
+}
+
+/* Campo de Pesquisa */
+form {
+  max-width: 400px;
+  width: 100%;
+  text-align: center; /* Centraliza o conteúdo do form */
+  margin: 0 auto !important; /* Garante alinhamento central */
+}
+
+.form-control.me-2 {
+  border-radius: 0%;
+}
+/* Ícones */
+.icon img {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon img:hover {
+  transform: scale(1.1);
+}
+
+/* Distância entre ícones */
+.icon {
+  margin-left: 15px; /* Ajuste conforme necessário */
+  margin-right: 15px; /* Ajuste conforme necessário */
+}
+
+.navbar .container {
+  flex-direction: column;
+  font-family: var(--font-primary);
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  #logo {
+    width: 100px;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .icon img {
+    width: 30px;
+  }
+
+  .icon {
+    margin: 0 10px; /* Reduz espaçamento em telas menores */
+  }
+  #IconUserHome img {
+    display: none;
+  }
+  #lupa {
+    width: 20px;
+    height: 20px;
+    margin-left: 82%;
+    margin-top: 8px;
+    position: absolute;
+  }
+  .input-group {
+    width: 25vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos específicos para telas médias */
+  #logo {
+    width: 40%;
+  }
+  form {
+    max-width: 70%;
+  }
+}
+
+/* Para telas pequenas */
+.icon {
+  margin: 0 10px; /* Espaçamento padrão entre os ícones */
+}
+
+/* Para telas médias e maiores */
+@media (min-width: 768px) {
+  .icon {
+    margin: 0 20px; /* Espaçamento maior entre os ícones em telas maiores */
+  }
+}
+
+.icon span {
+  font-size: 14px;
+  color: #6c757d; /* Cor cinza suave para o texto */
+  font-weight: 500; /* Ajuste de peso para um texto mais sutil */
+}
+
+/* Garantir boa distribuição dos ícones */
+.icon-container {
+  width: 100px; /* Ajuste de tamanho */
+}
+
+@media (min-width: 768px) {
+  .icon-container {
+    width: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon-container {
+    width: 150px;
+  }
+}
+
+/* Adiciona classe para gerenciar opacidade do fundo */
+body.mobile-menu-open {
+  overflow: hidden;
+}
+
+body.mobile-menu-open .container {
+  opacity: 0.5;
+}

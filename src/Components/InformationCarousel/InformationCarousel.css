@@ -1,0 +1,81 @@
+.information-carousel {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 90%;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* Esconde os elementos fora da área visível */
+}
+
+.carousel-slide {
+  flex: 0 0 30%; /* Cada slide ocupa 30% da largura do contêiner */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.slide-description {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--orange-color);
+}
+
+/* Indicadores */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: var(--orange-color);
+}
+
+span.slide-description {
+  color: var(--gray-color);
+}
+
+/* Ajustes para mobile */
+@media (max-width: 768px) {
+  .carousel-slide {
+    flex: 0 0 100%; /* Cada slide ocupa 100% da largura */
+    justify-content: center;
+    flex-direction: column; /* Coloca o ícone e a descrição em coluna */
+    text-align: center;
+  }
+
+  .slide-icon {
+    width: 40px; /* Reduz o tamanho dos ícones */
+    height: auto;
+    margin-bottom: 10px; /* Espaço abaixo do ícone */
+  }
+
+  span.slide-description {
+    font-size: 14px; /* Reduz o tamanho do texto */
+  }
+  .information-carousel {
+    margin-top: -1vh;
+  }
+}
