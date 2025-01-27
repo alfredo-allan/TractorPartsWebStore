@@ -1,0 +1,134 @@
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: #ff4d4f;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.product-name {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* .product-prices {
+  margin: 16px 0;
+  text-align: left;
+} */
+
+.original-price {
+  font-size: 14px;
+  color: #888;
+  text-decoration: line-through;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.discount-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.installments .text {
+  font-size: 12px;
+  color: #555;
+}
+
+.installments .text b {
+  font-weight: bold;
+}
+
+.pix-price {
+  font-size: 14px;
+  color: #28a745;
+  display: block;
+  margin-top: 8px;
+}
+
+.buy-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.buy-button:hover {
+  background-color: #218838;
+}
+
+.payment-icons-inline {
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-start;
+}
+
+.payment-icon-inline {
+  width: 16px; /* Ícones menores para se adequar ao layout */
+  height: auto;
+  display: inline-block;
+}
+
+@media (min-width: 1024px) {
+  .payment-pix {
+    position: absolute;
+    margin: -10% -44%;
+    width: 35px;
+  }
+  .payment-card {
+    position: absolute;
+    margin: -30% -44%;
+  }
+  .product-prices {
+    margin: 16px 17%;
+    text-align: left;
+  }
+  .product-image {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .payment-pix {
+    width: 30px;
+    margin: -7% -44%;
+    position: absolute;
+  }
+  .payment-card {
+    position: absolute;
+    margin: -33% -44%;
+  }
+  .product-prices {
+    text-align: left;
+    margin: 0px 63px;
+  }
+}

@@ -1,0 +1,221 @@
+/* Footer General Styles */
+footer {
+  background-color: #1a1a1a; /* Cor do fundo próximo ao design compartilhado */
+  color: #ffffff; /* Cor do texto branco */
+  padding: 40px 20px; /* Espaçamento interno */
+  font-family: Arial, sans-serif;
+}
+
+/* Section Titles */
+footer h5 {
+  color: var(--orange-color) !important; /* Cor amarela destacada */
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Links */
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+footer a:hover {
+  color: var(--orange-color) !important; /* Alteração para hover */
+}
+.text-warning {
+  color: var(--orange-color) !important;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #333333;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: var(--orange-color) !important;
+}
+
+.col-6.col-md-3.mb-4 {
+  text-align: left;
+}
+/* Responsive Layout */
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+  .mb-3 {
+    width: 300px;
+  }
+  #billet {
+    margin-right: 7px;
+  }
+  #diners {
+    margin-right: 7px;
+  }
+  #elo {
+    margin-right: 7px;
+  }
+  #visa {
+    margin-right: 7px;
+  }
+  #pix {
+    margin-right: 7px;
+  }
+  #mastercard {
+    margin-right: 7px;
+  }
+  #hipercard {
+    margin-right: 7px;
+  }
+  #hiper {
+    margin-right: 7px;
+  }
+  #mercadopago {
+    margin-right: 7px;
+  }
+  #amex {
+    margin-right: 7px;
+    width: 51px;
+    height: 32px;
+  }
+  #ssl {
+    margin-right: 7px;
+  }
+  .col-12.text-center.mt-3 {
+    padding: 20px;
+  }
+  .col-12.text-center {
+    padding: 10px;
+  }
+  .col-6.col-md-3.mb-4.atendimento {
+    margin-right: 5px;
+  }
+  #wts {
+    width: 20px;
+    position: absolute;
+    margin-left: -23px;
+  }
+  #icoemail {
+    width: 20px;
+    position: absolute;
+    margin-left: -24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .col-12.text-center.mb-4 {
+  }
+  #name {
+    margin: 0% 15%;
+  }
+  #email {
+    margin: 0% 40%;
+  }
+  .col-md-4.text-center.mb-4 img {
+    width: 350px;
+  }
+  #cadastrar {
+    margin-left: 120vh;
+    background-color: var(--orange-color) !important;
+    color: var(--gray-color);
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adicionando transição */
+    border: 2px solid transparent; /* Sem borda no estado inicial */
+    border-radius: 0%;
+  }
+  .col-12.text-center.payment {
+    text-align: center;
+    margin: 0% -27%;
+  }
+
+  .payment {
+    display: inline-block;
+    margin: 0 4px; /* Ajuste o valor para reduzir ou aumentar o espaçamento */
+    vertical-align: middle;
+  }
+  #billet {
+    margin-right: -20px;
+  }
+  #diners {
+    margin-right: -20px;
+  }
+  #elo {
+    margin-right: -20px;
+  }
+  #visa {
+    margin-right: -20px;
+  }
+  #pix {
+    margin-right: -20px;
+  }
+  #mastercard {
+    margin-right: -20px;
+  }
+  #hipercard {
+    margin-right: -20px;
+  }
+  #hiper {
+    margin-right: -20px;
+  }
+  #mercadopago {
+    margin-right: -20px;
+  }
+  #amex {
+    margin-right: -20px;
+    width: 51px;
+    height: 32px;
+  }
+  #ssl {
+    margin-right: -20px;
+  }
+  #wts {
+    position: absolute;
+    margin-left: -2%;
+    margin-top: -6px;
+  }
+  #icoemail {
+    position: absolute;
+    margin-left: -2%;
+    width: 30px;
+  }
+  .col-12.text-center.mt-3 {
+    margin: 22vh;
+    margin-top: 22vh;
+    position: absolute;
+  }
+  .col-12.text-center {
+    padding: 5vh;
+  }
+}
+/* Cadastrar Button */
+
+#cadastrar:hover {
+  background-color: #333333; /* Substituir var(--gray-color) por um tom mais escuro para contraste */
+  color: #ffcc00; /* Um laranja mais claro para legibilidade */
+}
