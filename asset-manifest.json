@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/TractorPartsWebStore/static/css/main.38c665df.css",
-    "main.js": "/TractorPartsWebStore/static/js/main.30d166eb.js",
+    "main.css": "/TractorPartsWebStore/static/css/main.b0c79b38.css",
+    "main.js": "/TractorPartsWebStore/static/js/main.7c495965.js",
     "static/media/bannerdesktop.png": "/TractorPartsWebStore/static/media/bannerdesktop.8d111cdf016b733e045a.png",
     "static/media/bannermobile.png": "/TractorPartsWebStore/static/media/bannermobile.6b1f1f8d2f34d73afba2.png",
     "static/media/icoTratorMax.png": "/TractorPartsWebStore/static/media/icoTratorMax.9ec8dedc66f4bc9c8dae.png",
+    "static/media/rachador_lenha.png": "/TractorPartsWebStore/static/media/rachador_lenha.79cafc8edeab8da629c9.png",
+    "static/media/googlesafe-color.svg": "/TractorPartsWebStore/static/media/googlesafe-color.810f2061010b0adebdbd89d8f6079e9d.svg",
+    "static/media/mercadopago-color.svg": "/TractorPartsWebStore/static/media/mercadopago-color.b3e9594f492ba1621cc796489359bfc3.svg",
+    "static/media/ssl-color.svg": "/TractorPartsWebStore/static/media/ssl-color.0ef93c1745d91e09c3f9fb9499048a1f.svg",
+    "static/media/pix-color.svg": "/TractorPartsWebStore/static/media/pix-color.04728785d8d4750ddb932f7474afabd2.svg",
+    "static/media/hipercard-color.svg": "/TractorPartsWebStore/static/media/hipercard-color.4bad0e0c2e57aeac0d20a4b8cef6f0e8.svg",
+    "static/media/billet-color.svg": "/TractorPartsWebStore/static/media/billet-color.9eb5d8df13d2d4225a18ca8ff88a570c.svg",
+    "static/media/hiper-color.svg": "/TractorPartsWebStore/static/media/hiper-color.d5c876f390e58d0f5562adbe3b0f41f3.svg",
+    "static/media/visa-color.svg": "/TractorPartsWebStore/static/media/visa-color.4c68df57eb2881ad0b88d701d842c1fa.svg",
+    "static/media/elo-color.svg": "/TractorPartsWebStore/static/media/elo-color.205fe05d5a04eafb5a8277eba972387f.svg",
+    "static/media/mastercard-color.svg": "/TractorPartsWebStore/static/media/mastercard-color.9371f448a02c129658fa5b479504c38f.svg",
+    "static/media/diners-color.svg": "/TractorPartsWebStore/static/media/diners-color.e3b794bfb81e94153a6d1f5fe1d71957.svg",
     "index.html": "/TractorPartsWebStore/index.html",
-    "main.38c665df.css.map": "/TractorPartsWebStore/static/css/main.38c665df.css.map",
-    "main.30d166eb.js.map": "/TractorPartsWebStore/static/js/main.30d166eb.js.map"
+    "static/media/americanexpress-color.svg": "/TractorPartsWebStore/static/media/americanexpress-color.ae6956cbbcaabb130798be9322f5f880.svg",
+    "main.b0c79b38.css.map": "/TractorPartsWebStore/static/css/main.b0c79b38.css.map",
+    "main.7c495965.js.map": "/TractorPartsWebStore/static/js/main.7c495965.js.map"
   },
   "entrypoints": [
-    "static/css/main.38c665df.css",
-    "static/js/main.30d166eb.js"
+    "static/css/main.b0c79b38.css",
+    "static/js/main.7c495965.js"
   ]
 }
