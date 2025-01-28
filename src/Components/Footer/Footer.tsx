@@ -91,7 +91,7 @@ const Footer = () => {
                         <img src={require('../../Assets/Img/americanexpress-color.svg').default} id='amex' alt="Métodos de Pagamento" className="img-fluid" />
 
                     </div>
-                    <div className="col-12 text-center mt-3">
+                    <div className="col-12 text-center mt-2">
                         <h6 className="text-warning">Certificados</h6>
                         <img src={require('../../Assets/Img/ssl-color.svg').default} id='ssl' alt="Certificados" className="img-fluid" />
                         <img src={require('../../Assets/Img/googlesafe-color.svg').default} id='googlesafe' alt="Certificados" className="img-fluid" />

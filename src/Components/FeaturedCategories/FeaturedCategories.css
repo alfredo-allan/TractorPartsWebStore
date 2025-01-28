@@ -1,0 +1,25 @@
+.text-center.mb-4 {
+  font-family: var(--font-primary);
+  color: var(--color-gray);
+}
+
+#categoryName {
+  margin-left: 5vh;
+  font-family: var(--font-primary);
+  color: var(--color-gray);
+}
+.col-6.col-md-3.col-lg-2.text-center.mb-4.d-flex.flex-column.align-items-center {
+  cursor: pointer;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  #categoryName {
+    text-align: center;
+    margin-right: 5vh;
+  }
+}
+
+.container.py-4 {
+  margin-top: 6vh;
+}

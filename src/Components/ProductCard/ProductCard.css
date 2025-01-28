@@ -7,6 +7,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: relative;
   cursor: pointer;
+  margin-bottom: 5vh;
 }
 
 .discount-badge {
@@ -115,6 +116,9 @@
   .product-image {
     width: 90%;
   }
+  .buy-button {
+    width: 300px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -130,5 +134,8 @@
   .product-prices {
     text-align: left;
     margin: 0px 63px;
+  }
+  .buy-button {
+    width: 220px;
   }
 }
