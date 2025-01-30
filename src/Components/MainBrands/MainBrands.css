@@ -28,6 +28,8 @@
   font-weight: bold;
   font-size: 0.9rem;
   text-align: center;
+  color: var(--gray-color);
+  text-wrap: none;
 }
 
 .carousel-dots {

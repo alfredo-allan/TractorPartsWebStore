@@ -1,34 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './Components/Header/Header';
 import Banner from './Components/Banner/Banner';
+import Footer from './Components/Footer/Footer';
 import InformationCarousel from './Components/InformationCarousel/InformationCarousel';
 import ProductCarousel from './Components/ProductCarousel/ProductCarousel';
-import Footer from './Components/Footer/Footer'
-import FeaturedCategories from './Components/FeaturedCategories/FeaturedCategories'
-import MainBrands from './Components/MainBrands/MainBrands'
-
-
+import FeaturedCategories from './Components/FeaturedCategories/FeaturedCategories';
+import MainBrands from './Components/MainBrands/MainBrands';
+import CategoryDetails from './Components/CategoryDetails/CategoryDetails';
 import './Style/Theme.css';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+
   return (
     <div className="App">
-      <Header />
-      <Banner
-        desktopImage={require('./Assets/Img/bannerdesktop.png')}
-        mobileImage={require('./Assets/Img/bannermobile.png')}
-      />
-      <InformationCarousel />
-      <ProductCarousel /> {/* Aqui renderizamos o carrossel */}
-      <main>
-        {/* Outros conteúdos do aplicativo podem ser adicionados aqui */}
-        <FeaturedCategories />
-        <MainBrands />
-      </main>
-      <Footer />
+      <BrowserRouter>
+        <Header onCategoryClick={setActiveCategory} />
+
+        {/* Banner sempre visível */}
+        <Banner
+          desktopImage={require('./Assets/Img/bannerdesktop.png')}
+          mobileImage={require('./Assets/Img/bannermobile.png')}
+        />
+
+        {activeCategory ? (
+          <CategoryDetails category={activeCategory} />
+        ) : (
+          <>
+            <InformationCarousel />
+            <ProductCarousel />
+            <main>
+              <FeaturedCategories />
+              <MainBrands />
+            </main>
+          </>
+        )}
+
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
+
 
 export default App;

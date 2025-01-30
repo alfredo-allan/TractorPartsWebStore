@@ -8,6 +8,7 @@
   position: relative;
   cursor: pointer;
   margin-bottom: 5vh;
+  width: 80%;
 }
 
 .discount-badge {
@@ -69,6 +70,7 @@
   color: #28a745;
   display: block;
   margin-top: 8px;
+  margin-bottom: 2vh;
 }
 
 .buy-button {
@@ -102,7 +104,7 @@
 @media (min-width: 1024px) {
   .payment-pix {
     position: absolute;
-    margin: -10% -44%;
+    margin: -13% -44%;
     width: 35px;
   }
   .payment-card {
@@ -124,12 +126,12 @@
 @media (max-width: 768px) {
   .payment-pix {
     width: 30px;
-    margin: -7% -44%;
+    margin: -16% -44%;
     position: absolute;
   }
   .payment-card {
     position: absolute;
-    margin: -33% -44%;
+    margin: -44% -44%;
   }
   .product-prices {
     text-align: left;
@@ -137,5 +139,8 @@
   }
   .buy-button {
     width: 220px;
+  }
+  .product-card {
+    margin: 3vh;
   }
 }
