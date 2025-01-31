@@ -45,7 +45,10 @@ const Header: React.FC<HeaderProps> = ({ onCategoryClick }) => {
                 <div className="container d-flex flex-column align-items-center">
                     {/* Logo e Campo de Pesquisa */}
                     <div className="d-flex w-100 justify-content-between align-items-center">
-                        <a className="navbar-brand" href="./App.tsx">
+                        <a className="navbar-brand" href="#" onClick={(e) => {
+                            e.preventDefault(); // Evita o comportamento padrão do link
+                            window.location.reload(); // Recarrega a página
+                        }}>
                             <img
                                 id="logo"
                                 src={logo}
