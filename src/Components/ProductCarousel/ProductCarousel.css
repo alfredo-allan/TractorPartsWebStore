@@ -109,3 +109,35 @@
   color: var(--gray-color);
   font-family: var(--font-primary);
 }
+
+@media (min-width: 1024px) {
+  .slick-arrow.slick-next {
+    margin: 85vh 5vh;
+    background-color: var(--orange-color);
+  }
+  .slick-arrow.slick-prev {
+    margin: 85vh 50px;
+    background-color: var(--orange-color);
+  }
+  .slick-list {
+  }
+}
+
+.slick-prev::before {
+  content: "<";
+  font-size: 25px;
+  color: var(--gray-color);
+}
+
+.slick-next::before {
+  content: ">";
+  font-size: 25px;
+  color: var(--gray-color);
+}
+
+@media (max-width: 768px) {
+  .slick-arrow.slick-next,
+  .slick-arrow.slick-prev {
+    display: none !important;
+  }
+}
